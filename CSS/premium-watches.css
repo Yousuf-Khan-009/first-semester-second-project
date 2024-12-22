@@ -8,18 +8,10 @@
     width: 100%;
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
-
-.dropdown-item:focus{
-    background-color: #e6e6e6;
-    color: black;
-}
-
-.dropdown-item:active{
-    background-color: #e6e6e6;
-    color: black;
+@media screen and (min-width:576px) {
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
 }
 
 .logo {

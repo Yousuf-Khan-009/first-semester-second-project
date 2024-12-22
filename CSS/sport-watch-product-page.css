@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.logo {
+    width: 140px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width:576px) {
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:focus {
+    color: white;
+}
+
+.bi-three-dots {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+.image img {
+    width: 100%;
+    max-width: 400px;
+    padding: 80px 0 0 0;
+}
+
+.details {
+    display: flex;
+    padding: 80px 0 0 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.details .exclusive {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.stars {
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width:320px) and (max-width:374px) {
+    .stars {
+        padding-left: 200px;
+        margin-top: -40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:375px) and (max-width:424px) {
+    .stars {
+        padding-left: 200px;
+        margin-top: -40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.details h1 {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-right: 90px;
+}
+
+.cancel-price {
+    text-transform: capitalize;
+    padding-top: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.discount-price {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -22px;
+}
+
+.color {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.watch-image {
+    width: 100%;
+    max-width: 90px;
+    object-fit: cover;
+    border: 1px solid #f4f4f4;
+}
+
+.watch-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+
+.second-column{
+    width: 400px;
+}
+
+.buy-now {
+    text-decoration: none;
+    margin-top: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.first-column{
+    margin: 0 auto;
+}
+
+.download-pdf{
+    text-decoration: none;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.download-pdf:hover{
+    text-decoration: underline;
+}
+
+.pdf-image{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: -5px;
+}

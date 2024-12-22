@@ -18,18 +18,10 @@
     color: white !important;
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
-
-.dropdown-item:focus{
-    background-color: #e6e6e6;
-    color: black;
-}
-
-.dropdown-item:active{
-    background-color: #e6e6e6;
-    color: black;
+@media screen and (min-width:576px) {
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
 }
 
 .nav-link {
@@ -178,25 +170,25 @@
     }
 
     .box-1 {
-        width: 280px;
+        width: 240px;
         height: 300px;
         margin: 0 5px;
     }
 
     .box-2 {
-        width: 280px;
+        width: 240px;
         height: 300px;
         margin: 0 5px;
     }
 
     .box-3 {
-        width: 280px;
+        width: 240px;
         height: 300px;
         margin: 0 5px;
     }
 
     .box-4 {
-        width: 280px;
+        width: 240px;
         height: 300px;
         margin: 0 5px;
     }

@@ -24,18 +24,10 @@
     margin-right: 10px;
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
-
-.dropdown-item:focus{
-    background-color: #e6e6e6;
-    color: black;
-}
-
-.dropdown-item:active{
-    background-color: #e6e6e6;
-    color: black;
+@media screen and (min-width:576px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
 }
 
 .nav-link:hover {
@@ -138,7 +130,7 @@
     align-items: start;
 }
 
-.second-column{
+.second-column {
     width: 400px;
 }
 
@@ -160,7 +152,23 @@
     width: 100%;
 }
 
-.first-column{
+.first-column {
     margin: 0 auto;
 }
 
+.download-pdf {
+    text-decoration: none;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.download-pdf:hover {
+    text-decoration: underline;
+}
+
+.pdf-image{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: -5px;
+}

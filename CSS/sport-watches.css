@@ -8,18 +8,10 @@
     width: 100%;
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
-
-.dropdown-item:focus{
-    background-color: #e6e6e6;
-    color: black;
-}
-
-.dropdown-item:active{
-    background-color: #e6e6e6;
-    color: black;
+@media screen and (min-width:576px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
 }
 
 .logo {
@@ -54,155 +46,166 @@
     padding: 5px 10px 5px 10px;
 }
 
-.box-1{
-    max-width: 400px;
+.box-1 {
+    max-width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     margin-top: 20px;
     padding: 0 10px;
 }
 
-.box-2{
-    max-width: 400px;
+.box-2 {
+    max-width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     margin-top: 20px;
     padding: 0 10px;
 }
 
-.box-3{
-    max-width: 400px;
+.box-3 {
+    max-width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     margin-top: 20px;
     padding: 0 10px;
 }
 
-.box-4{
-    max-width: 400px;
-    height: 100%;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 20px;
-    padding: 0 10px;
+@media (min-width:768px) and (max-width:1023px) {
+    
 }
 
-.box-5{
-    max-width: 400px;
+.box-4 {
+    max-width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     margin-top: 40px;
     padding: 0 10px;
 }
 
-.box-6{
-    max-width: 400px;
+.box-5 {
+    max-width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     margin-top: 40px;
     padding: 0 10px;
 }
 
-.box-7{
-    max-width: 400px;
+.box-6 {
+    max-width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     margin-top: 40px;
     padding: 0 10px;
 }
 
-.box-8{
-    max-width: 400px;
+.box-7 {
+    max-width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    margin-top: 60px;
     padding: 0 10px;
 }
 
-.box-logo{
+.box-8 {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    margin-top: 60px;
+    padding: 0 10px;
+}
+
+.box-logo {
     width: 100px;
     height: 80px;
     object-fit: cover;
 }
 
-.box-image-1{
-    width: 250px;
-    height: 600px;
-    object-fit: cover;
-    margin-top: -20px;
-}
-.box-image-2{
-    max-width: 100%;
-    height: 600px;
-    object-fit: cover;
-    margin-top: -20px;
-}
-.box-image-3{
-    max-width: 100%;
-    height: 600px;
-    object-fit: cover;
-    margin-top: -20px;
-}
-.box-image-4{
-    max-width: 100%;
-    height: 600px;
-    object-fit: cover;
-    margin-top: -20px;
-}
-.box-image-5{
-    max-width: 100%;
-    height: 600px;
-    object-fit: cover;
-    margin-top: -20px;
-}
-.box-image-6{
-    max-width: 100%;
-    height: 600px;
-    object-fit: cover;
-    margin-top: -20px;
-}
-.box-image-7{
-    max-width: 100%;
-    height: 600px;
-    object-fit: cover;
-    margin-top: -20px;
-}
-.box-image-8{
+.box-image-1 {
     width: 100%;
-    height: 400px;
+    height: 390px;
     object-fit: cover;
     margin-top: -20px;
 }
 
-.watch-name{
+.box-image-2 {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    margin-top: -20px;
+}
+
+.box-image-3 {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    margin-top: -20px;
+}
+
+.box-image-4 {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    margin-top: -20px;
+}
+
+.box-image-5 {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    margin-top: -20px;
+}
+
+.box-image-6 {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    margin-top: -20px;
+}
+
+.box-image-7 {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    margin-top: -20px;
+}
+
+.box-image-8 {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    margin-top: -20px;
+}
+
+.watch-name {
     margin-top: 20px;
 }
 
-.stars{
+.stars {
     margin-top: 20px;
     display: flex;
 }
 
-.bx{
+.bx {
     margin: 0 2px;
 }
 
-.reviews{
+.reviews {
     margin-top: -5px;
 }
 
-.price{
+.price {
     text-transform: capitalize;
 }
 
-.buy-now{
+.buy-now {
     text-decoration: none;
     border: 1px solid black;
     display: flex;
@@ -217,3 +220,20 @@
     margin-top: 20px;
 }
 
+@media (min-width:1600px) and (max-width:2560px) {
+    .box-image-1 {height: 850px;}
+
+    .box-image-2{height: 850px;}
+
+    .box-image-3{height: 850px;}
+
+    .box-image-4{height: 850px;}
+
+    .box-image-5{height: 850px;}
+
+    .box-image-6{height: 850px;}
+
+    .box-image-7{height: 850px;}
+
+    .box-image-8{height: 850px;}
+}

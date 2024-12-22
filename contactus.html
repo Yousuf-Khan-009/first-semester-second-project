@@ -1,56 +1,101 @@
-<!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title> Responsive Contact Us Form  | CodingLab </title>
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/contactus.css">
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+    integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="images/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/contactus.css">
 </head>
+
 <body>
+
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/without background logo.png" alt="Logo"
+          class="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-three-dots"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="premium-watches.html">Premium</a></li>
+              <li><a class="dropdown-item" href="sports-watches.html">Sports</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store-locator.html">Store Locator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="support-page.html">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <div class="container">
-    <div class="content">
-      <div class="left-side">
-        <div class="address details">
-          <i class="fas fa-map-marker-alt"></i>
-          <div class="topic">Address</div>
-          <div class="text-one">Surkhet, NP12</div>
-          <div class="text-two">Birendranagar 06</div>
+    <div class="heading-text">
+      <h2 class="heading">Contact Us</h2>
+    </div>
+    <p class="paragraph">
+       The " Contact Us " section is really a key to connect a user to an association. It includes important information like phone numbers, email addresses, and physical addresses. Many features an impinging drive form for api, as well as links to social media appearances or live on concourse options.
+    </p>
+    <div class="row">
+      <div class="col-12 col-lg-6 col-md-6">
+        <div class="icon">
+          <i class="fa-solid fa-house-chimney"></i>
+          <h4 class="address-heading">Address</h4>
         </div>
-        <div class="phone details">
-          <i class="fas fa-phone-alt"></i>
-          <div class="topic">Phone</div>
-          <div class="text-one">+0098 9893 5647</div>
-          <div class="text-two">+0096 3434 5678</div>
-        </div>
-        <div class="email details">
-          <i class="fas fa-envelope"></i>
-          <div class="topic">Email</div>
-          <div class="text-one">codinglab@gmail.com</div>
-          <div class="text-two">info.codinglab@gmail.com</div>
+        <p class="address">saddar, Karachi, Pakistan</p>
+        <i class="fa-solid fa-phone-flip"></i>
+        <h4 class="phone-heading">phone</h4>
+        <p class="number">+92 362919225</p>
+        <i class="fa-solid fa-envelope"></i>
+        <h4 class="email-haeding">email</h4>
+        <a href="mailto:aurawatches@gmail.com" class="email">aurawatches@gmail.com</a>
+      </div>
+      <div class="col-12 col-lg-6 col-md-6">
+        <div class="box-parent">
+          <div class="box">
+            <h3 class="send-message">send message</h3>
+            <input id="name" type="text" placeholder="Full Name" class="name" required>
+            <input is="email" type="email" placeholder="Email" class="custom-email" required>
+            <input id="message" type="text" placeholder="Type your Message" class="custom-message">
+            <a href="#" class="send-btn">Send</a>
+          </div>
         </div>
       </div>
-      <div class="right-side">
-        <div class="topic-text">Send us a message</div>
-        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Enter your name">
-        </div>
-        <div class="input-box">
-          <input type="text" placeholder="Enter your email">
-        </div>
-        <div class="input-box message-box">
-          <input type="text" placeholder="Enter your message"">
-        </div>
-        <div class="button">
-          <input type="button" value="Send Now" >
-        </div>
-      </form>
     </div>
-    </div>
+
   </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
