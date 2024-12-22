@@ -27,12 +27,6 @@
     margin-right: 10px;
 }
 
-@media screen and (min-width:576px) {
-    .dropdown:hover .dropdown-menu{
-        display: block;
-    }
-}
-
 .nav-link:hover{
     color: white;
 }

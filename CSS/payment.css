@@ -15,12 +15,6 @@
     object-fit: cover;
 }
 
-@media screen and (min-width:576px) {
-    .dropdown:hover .dropdown-menu{
-        display: block;
-    }
-}
-
 .nav-link.active {
     color: white !important;
 }

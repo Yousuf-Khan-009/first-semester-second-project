@@ -8,12 +8,6 @@
     width: 100%;
 }
 
-@media screen and (min-width:576px) {
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-}
-
 .logo {
     width: 140px;
     height: 80px;
