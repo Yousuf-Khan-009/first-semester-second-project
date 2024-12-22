@@ -51,7 +51,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
     padding: 0 10px;
 }
 
@@ -60,7 +60,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
     padding: 0 10px;
 }
 
@@ -69,7 +69,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
     padding: 0 10px;
 }
 
@@ -78,7 +78,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
     padding: 0 10px;
 }
 
@@ -87,7 +87,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 40px;
+    margin: 20px auto 0 auto;
     padding: 0 10px;
 }
 
@@ -96,7 +96,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 40px;
+    margin: 20px auto 0 auto;
     padding: 0 10px;
 }
 
@@ -105,7 +105,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 40px;
+    margin: 20px auto 0 auto;
     padding: 0 10px;
 }
 
@@ -114,7 +114,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    margin-top: 40px;
+    margin: 20px auto 0 auto;
     padding: 0 10px;
 }
 
@@ -166,29 +166,240 @@
     margin-top: 20px;
 }
 
-/* @media (min-width:320px) and (max-width:374px) {
+
+@media (min-width:1024px) and (max-width:1439px) {
     .box-1{
-        height: 840px;
+        height: 830px;
     }
     .box-2{
-        height: 780px;
+        height: 830px;
     }
     .box-3{
-        height: 780px;
+        height: 830px;
     }
     .box-4{
-        height: 780px;
+        height: 830px;
     }
     .box-5{
-        height: 780px;
+        height: 830px;
     }
     .box-6{
-        height: 780px;
+        height: 830px;
     }
     .box-7{
-        height: 780px;
+        height: 830px;
     }
     .box-8{
-        height: 780px;
+        height: 830px;
     }
-} */
+}
+
+@media (min-width:1440px) and (max-width:2559px) {
+    .box-1{
+        height: 880px;
+    }
+    .box-2{
+        height: 880px;
+    }
+    .box-3{
+        height: 880px;
+    }
+    .box-4{
+        height: 880px;
+    }
+    .box-5{
+        height: 880px;
+    }
+    .box-6{
+        height: 880px;
+    }
+    .box-7{
+        height: 880px;
+    }
+    .box-8{
+        height: 880px;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .box-1{
+        height: 940px;
+        margin-top: 40px;
+    }
+    .box-2{
+        margin-top: 40px;
+        height: 940px;
+    }
+    .box-3{
+        margin-top: 40px;
+        height: 940px;
+    }
+    .box-4{
+        margin-top: 40px;
+        height: 940px;
+    }
+    .box-5{
+        margin-top: 40px;
+        height: 940px;
+    }
+    .box-6{
+        margin-top: 40px;
+        height: 940px;
+    }
+    .box-7{
+        margin-top: 40px;
+        height: 940px;
+    }
+    .box-8{
+        margin-top: 40px;
+        height: 940px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1110px) {
+    .box-1{
+        height: 730px;
+    }
+    .box-2{
+        height: 730px;
+    }
+    .box-3{
+        height: 730px;
+    }
+    .box-4{
+        height: 730px;
+    }
+    .box-5{
+        height: 730px;
+    }
+    .box-6{
+        height: 730px;
+    }
+    .box-7{
+        height: 730px;
+    }
+    .box-8{
+        height: 730px;
+    }
+}
+
+@media (min-width:1111px) and (max-width:1439px) {
+    .box-1{height: 850px;}
+    .box-2{height: 850px;}
+    .box-3{height: 850px;}
+    .box-4{height: 850px;}
+    .box-5{height: 850px;}
+    .box-6{height: 850px;}
+    .box-7{height: 850px;}
+    .box-8{height: 850px;}
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .box-4{
+        margin-top: 40px;
+    }
+    .box-5{
+        margin-top: 40px;
+    }
+    .box-6{
+        margin-top: 40px;
+    }
+    .box-7{
+        margin-top: 60px;
+    }
+    .box-8{
+        margin-top: 60px;
+    }
+}
+
+@media (min-width:425px) and (max-width:767px) {
+    .box-1{
+        height: 940px;
+        margin-top: 30px;
+    }
+    .box-2{
+        margin-top: 30px;
+        height: 940px;
+    }
+    .box-3{
+        margin-top: 30px;
+        height: 940px;
+    }
+    .box-4{
+        margin-top: 30px;
+        height: 940px;
+    }
+    .box-5{
+        margin-top: 30px;
+        height: 940px;
+    }
+    .box-6{
+        margin-top: 30px;
+        height: 940px;
+    }
+    .box-7{
+        margin-top: 30px;
+        height: 940px;
+    }
+    .box-8{
+        margin-top: 30px;
+        height: 940px;
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media (min-width:375px) and (max-width:424px) {
+    .box-1{
+        height: 880px;
+    }
+    .box-2{
+        height: 880px;
+    }
+    .box-3{
+        height: 880px;
+    }
+    .box-4{
+        height: 880px;
+    }
+    .box-5{
+        height: 880px;
+    }
+    .box-6{
+        height: 880px;
+    }
+    .box-7{
+        height: 880px;
+    }
+    .box-8{
+        height: 880px;
+    }
+}
+
+@media (min-width:320px) and (max-width:374px) {
+    .box-1{
+        height: 820px;
+    }
+    .box-2{
+        height: 820px;
+    }
+    .box-3{
+        height: 820px;
+    }
+    .box-4{
+        height: 820px;
+    }
+    .box-5{
+        height: 820px;
+    }
+    .box-6{
+        height: 820px;
+    }
+    .box-7{
+        height: 820px;
+    }
+    .box-8{
+        height: 820px;
+    }
+}
