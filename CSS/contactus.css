@@ -26,6 +26,16 @@ body{
   color: white !important;
 }
 
+.dropdown-item:focus{
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.dropdown-item:active{
+  background-color: #e6e6e6;
+  color: black;
+}
+
 .nav-link{
   color: #ffffff;
   font-size: 20px;
