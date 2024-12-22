@@ -20,6 +20,10 @@
     color: white !important;
 }
 
+.dropdown-toggle:focus{
+    color: white !important;
+}
+
 .nav-link{
     color: #ffffff;
     font-size: 20px;
