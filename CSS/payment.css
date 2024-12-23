@@ -79,10 +79,23 @@
     margin-top: -3px;
 }
 
+form{
+    position: relative;
+}
+
 .input-cardnumber {
     width: 100%;
     height: 56px;
     padding-left: 20px;
+    position: relative;
+}
+
+.fa-credit-card{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
 }
 
 .input-expiration {
@@ -172,3 +185,6 @@ input::placeholder {
     width: 100%;
 }
 
+input[type="number"]::-webkit-inner-spin-button{
+    display: none;
+}

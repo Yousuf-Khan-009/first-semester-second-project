@@ -22,12 +22,19 @@ formbtn.addEventListener('click', function () {
 
 })
 
-document.getElementById('submit').addEventListener('click', function () {
+// function data(){
+//     var numberinput = document.getElementById('card-number').value
+//     var expirationinput = document.getElementById('expiration-date').value
+//     var cvvinput = document.getElementById('cvv').value
+//     var nameinput = document.getElementById('card-name').value
 
-    Swal.fire({
-        title: "Good job!",
-        text: "You clicked the button!",
-        icon: "success"
-    });
+// if(numberinput==""||expirationinput==""||cvvinput==""||nameinput==""){
+//     alert('All Fields are mendatory')
+// }
 
+// }
+
+cardnumbers.addEventListener('keyup',function(){
+    num=this.value
+    if(num.length==4 || num)
 })
