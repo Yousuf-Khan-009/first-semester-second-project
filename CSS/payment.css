@@ -109,3 +109,24 @@
     border-color: #757575;
     height: 45px;
 }
+
+.visa-card{
+    width: 70px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: -50px;
+}
+
+.master-Card{
+    width: 50px;
+    height: 30px;
+    object-fit: cover;
+    margin-top: -50px;
+}
+
+.unionpay-card{
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: -50px;
+}
